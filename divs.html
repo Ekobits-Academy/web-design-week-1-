@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Divs</title>
+</head>
+<body style="height: 1500px; background-color: black; color: white; font-family: courier;">
+
+<h1 align="center"><u>Divs and Forms</u></h1>
+<p>In today's class, we'll be discussing divs and forms.</p>
+
+<div style="background-color: orange">
+	<h3>Divs</h3>
+	<p>Divs are division or sections in the html document. They allow us to structure our site in ways we want to. This text is in a div of its own and the background color for this div will be changed now.</p>
+</div>
+
+<div>
+	<h3>Forms without tables</h3>
+	<p>A form allows you to get input from your users.</p>
+	<form>
+		<label><b>Full Name:</b></label><input style="width: 250px; height: 25px;" placeholder="Enter your full name" type="text" name=""> <br><br>		
+		<label><b>Age:</b></label><input style="width: 250px; height: 25px;" type="number" name="">	<br><br>	
+		<label><b>Email:</b></label><input style="width: 250px; height: 25px;" type="email" name="">	<br><br>
+		<label><b>Gender:</b></label>
+		<input type="radio" name="gender"> <label>Male</label>
+		<input type="radio" name="gender"><label>Female</label>
+		<input type="radio" name="gender"><label>Other</label> <br><br>
+		<label><b>Interests:</b></label> <br>
+		<input type="checkbox" id="1" name="" value="Football"> <label>Football</label>
+		<input type="checkbox" id="2" name="" value="Volleyball">  <label>Volleyball</label>
+		<input type="checkbox" id="3" name="" value="Chess">  <label>Chess</label>
+		<input type="checkbox" id="4" name="" value="Tenis">  <label>Tenis</label>
+		<input type="checkbox" id="5" name="" value="Basketball">  <label>Basketball</label>
+		<input type="checkbox" id="6" name="" value="Swimming">  <label>Swimming</label> <br><br>
+		<input type="button" name="" value="Submit" 
+		style="background-color: blue; color: white; height: 30px; width: 100px; "> 	
+	
+	</form>
+</div>
+
+<div style="background-color: maroon;" align="center">
+	<form>
+	<legend>Log in Form</legend>
+	<table cellspacing="5px" cellpadding="10px;" border="1px">
+		<tr>
+			<td><label>First Name:</label></td>
+			<td><input style="width: 250px; height: 25px;" placeholder="Enter your first name here" type="text" name=""></td>
+		</tr>
+		<tr>
+			<td><label>Last Name:</label></td>
+			<td><input style="width: 250px; height: 25px;" placeholder="Enter your last name here" type="text" name=""></td>
+		</tr>
+		<tr>
+			<td><label>Email:</label></td>
+			<td><input type="email" placeholder="Enter your email address here" name=""></td>
+		</tr>
+		<tr>
+			<td><label>Age:</label></td>
+			<td><input style="width: 250px; height: 25px;" placeholder="Enter your age here" type="number" name=""></td>
+		</tr>
+		<tr>
+			<td><label>Gender:</label></td>
+			<td>
+				<input type="radio" name="gender"> <label>Male</label> <br>
+				<input type="radio" name="gender"><label>Female</label> <br>
+				<input type="radio" name="gender"><label>Other</label>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Subjects:</label></td>
+			<td>
+				<input type="checkbox" id="1" name=""> <label>Science</label> <br>
+				<input type="checkbox" id="2" name=""> <label>Business</label> <br>
+				<input type="checkbox" id="3" name=""> <label>Arts</label> <br>
+			</td>
+		</tr>
+		<tr>
+			<td><label>Description:</label></td>
+			<td>
+				<textarea style="height: 150px; width: 250px;">
+					
+				</textarea>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="button" name="" value="Submit" style="background-color: blue; color: white; height: 30px; width: 100px; ">
+			</td>
+		</tr>
+	</table>
+	</form>
+</div>
+
+</body>
+</html>
