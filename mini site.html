@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Store</title>
+	<link rel="icon" href="logo.jpeg">
+	<style type="text/css">
+		ul{
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		li{
+			display: inline;
+			border-bottom: 2px solid #000;
+		}
+		a{
+			color: #000;
+		}
+		header{
+			background-color: #fff;
+		} 
+		body{
+			min-height: 1500px;
+		}
+		h1, h3{
+			color: navy;
+		}
+		#footer_list li{
+			display: block;
+			border-bottom:0px; 
+		}
+	</style>
+</head>
+<body style="font-family: courier;">
+<div>
+	<!-- Header section -->
+	<header>
+		<nav>
+			<ul>
+				<li><a href="mini site.html"><img src="logo.jpeg" alt="logo" style="height: 50px;"></</a><li>
+				<li><a href="mini site.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#players">Players</a></li>
+				<li><a href="#players">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+</div>
+
+<div style="background-image: url('bg5.jpg'); height: 550px; background-repeat: repeat;background-size: cover; margin-top: 30px; color: #fff; text-align: center; " >
+	<h1 style="color: #fff">We are the blues...</h1>
+	<p>Pride of London</p>
+</div>
+
+<div id="about" style="margin-top:10px;">
+	<h1 align="center">About Us</h1>
+	<!-- Table -->
+	<table style="height:250px; width: 100%; border: 0px solid red;" cellspacing="10">
+
+		<!-- About us -->
+		<tr>
+			<td style="width: 30% ; border: 0px solid black;" cellspacing="">
+				<img src="logo.jpeg" alt="logo pics" style="width: 100%;">
+			</td>
+			<td style="width: 70%; border: 0px solid gold;" cellspacing="">
+				<p>Chelsea Football Club are an English professional football club based in Fulham, London. Founded in 1905, the club competes in the Premier League, the top division of English football.</p> 
+			</td>
+		</tr>
+	</table>
+</div>
+
+<!-- Jersey section -->
+<div id="players">
+	<h1 align="center">Players</h1>
+	<table  style="height:500px; width: 100%; text-align: center;" cellpadding="0" cellspacing="2" border="0">		
+		<tr  style="border: 0px solid red;">
+			<td style="border: 0px  solid green;">
+				<img src="werner.jpeg" style="width: 250px; height: 200px; " >
+				<h3>Timo Werner</h3>
+			</td>
+			<td style="border: 0px solid grey;">
+				<img src="chiwel.jpeg" style="width:250px; height: 200px; ">
+				<h3>Ben Chilwell</h3>
+			</td>
+			<td  rowspan="2" style="border: 0px solid gold;">
+				<img src="ziyech.jpeg" style="width:250px; height: 450px; ">
+				<h3>Hakim Ziyech</h3>
+			</td>
+			<td colspan="2" style="border: 0px solid green;">
+				<img src="default.png" style="width:120px; height: 200px; ">
+				<h3>Ngolo Kante</h3>
+			</td>
+		</tr>
+		<tr style="border: 0px solid red;">
+			<td style="border: 0px  solid green;">
+				<img src="default.png" alt="Olivier Giroud" style="width:300px; height: 200px; ">
+				<h3>Olivier Giroud</h3>
+			</td>
+			<td style="border: 0px solid grey;">
+				<img src="default.png" style="width:300px; height: 200px; ">
+				<h3>Tammy Abraham</h3>
+			</td>
+			<td style="border: 0px solid gold;">
+				<img src="pulisic.jpeg" style="width:300px; height: 200px; ">
+				<h3>Christian Pulisic</h3>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<h1 align="center">Contact Us</h1>
+	<!-- Background image -->
+<div style="background-image: url('bg1.jpeg'); background-size: cover; height: 500px; margin-top: 20px;">
+<!-- Contact Form -->
+<div id="contact" align="center">
+	<form>
+		<legend><h3 style="color: #fff;">Fill in Correctly</h3></legend>
+		<table>
+			<tr>
+				<td><label style="color:#fff;">Full Name:</label></td>
+				<td><input type="text" placeholder="Enter your fullname here" name="" style="width: 250px; height: 50px; border-radius: 25px"></td>
+			</tr>
+			<tr>
+				<td><label style="color:#fff;">Age:</label></td>
+				<td><input type="number" placeholder="Enter your age here" name="" style="width: 250px; height: 50px; border-radius: 25px"></td>
+			</tr>
+			<tr>
+				<td><label style="color:#fff;">Favourite player:</label></td>
+				<td>
+					<input type="checkbox" name=""><label style="color:#fff;">Giroud</label> <br>
+					<input type="checkbox" name=""><label style="color:#fff;">Mount</label> <br>
+					<input type="checkbox" name=""><label style="color:#fff;">Ziyech</label> <br>
+					<input type="checkbox" name=""><label style="color:#fff;">Kovacic</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label style="color:#fff;">Give Reason:</label></td>
+				<td><textarea style="width: 250px; height: 150px; border-radius: 25px">
+					
+				</textarea> </td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Submit Form" name="" style="width: 250px; height: 50px; border-radius: 25px; background-color: #ff; color: navy;"></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</div>
+	
+
+<!-- Footer -->
+<footer style="color: navy; height: 150px;">
+	<table style="width: 100%; line-height: 100%;" cellpadding="100"; cellspacing="0" >
+		<tr>
+			<td>
+				<p align="center">Copyright &copy; 2020</p>
+			</td>
+			<td id="footer_list">
+				<h3>Navigation</h3>
+				<li><a href="mini site.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#players">Players</a></li>
+				<li><a href="#players">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</td>
+			
+			<td>
+				<h3>Credits</h3>
+				Made by Ekobits Academy Web design Beginner's level
+			</td>
+		</tr>
+	</table>
+</footer>			
+</body>
+</html>
